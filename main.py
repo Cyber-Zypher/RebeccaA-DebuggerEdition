@@ -46,9 +46,9 @@ demo(n=1, block_orientation=-90, rotate=0, inreverse=False)
 # Connect to the MySQL database
 conn = pymysql.connect(
     host='localhost',
-    user='root',
-    password='Sidharth8',
-    db='REBECCA',
+    user='UNAME',
+    password='PASSWD',
+    db='DB_NAME',
     charset='utf8mb4',
     cursorclass=pymysql.cursors.DictCursor
 )
